@@ -6,7 +6,7 @@
 /*   By: afadouac <afadouac@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/07/27 18:01:52 by ousabbar          #+#    #+#             */
-/*   Updated: 2024/09/07 11:39:00 by afadouac         ###   ########.fr       */
+/*   Updated: 2024/09/16 06:29:13 by afadouac         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -41,7 +41,7 @@
 # define ESC 65307
 # define GRAY 0x767676
 # define DARKFACTOR 30
-# define PLAYERVET 5
+# define PLAYERVET 1
 # define DISTDOOR 20
 # define DOOR 1337
 # define MAXWALL 500

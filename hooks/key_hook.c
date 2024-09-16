@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   key_hook.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: ousabbar <ousabbar@student.42.fr>          +#+  +:+       +#+        */
+/*   By: afadouac <afadouac@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/07/25 17:31:25 by ousabbar          #+#    #+#             */
-/*   Updated: 2024/07/27 19:01:23 by ousabbar         ###   ########.fr       */
+/*   Updated: 2024/09/16 05:54:06 by afadouac         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -85,9 +85,9 @@ int	key_hook(int keycode, void *data1)
 		data->player.x = step.x;
 		data->player.y = step.y;
 	}
-	if (data->map_info.direction >= 2 * M_PI)
-		data->map_info.direction -= 2 * M_PI;
-	else if (data->map_info.direction < 0)
-		data->map_info.direction += 2 * M_PI;
+	// if (data->map_info.direction >= 2 * M_PI)
+	// 	data->map_info.direction -= 2 * M_PI;
+	// else if (data->map_info.direction < 0)
+	// 	data->map_info.direction += 2 * M_PI;
 	return (0);
 }
